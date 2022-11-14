@@ -1,0 +1,22 @@
+{
+  "name": "configure-servers-script-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-servers": "node ./addServersJSON.js",
+    "configure-project": "chmod +x ./install.pl && ./install.pl && node ./addServersJSON.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpetrouk/configure-servers-script-prototype.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpetrouk/configure-servers-script-prototype/issues"
+  },
+  "homepage": "https://github.com/dpetrouk/configure-servers-script-prototype#readme"
+}
